@@ -1,10 +1,10 @@
 import React from "react";
 
-const Button = () => {
+const Button = ({ style }) => {
   return (
-    <div>
-      <h1>Button</h1>
-    </div>
+    <button type="button" className={`py-4 px-6 bg-blue-gradient`}>
+      Get Started
+    </button>
   );
 };
 
